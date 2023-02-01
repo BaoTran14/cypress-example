@@ -1,0 +1,23 @@
+{
+  "name": "cypressexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "baotq",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-cucumber-preprocessor": "^4.1.4"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.0",
+    "debug": "^4.3.2",
+    "fs": "^0.0.1-security"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
